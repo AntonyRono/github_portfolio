@@ -509,6 +509,21 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+/* Add this CSS to style the "More Projects" button */
+.more-projects-button {
+    text-align: center;
+    margin-top: var(--gutter-huge); /* Adjust the margin-top value as needed */
+}
+
+.more-projects-button p {
+    display: inline-block;
+    padding: 1.5rem 3rem; /* Adjust the padding to control the button size */
+    font-size: var(--font-size-medium);
+    font-weight: bold; /* Make the text bold */
+    cursor: pointer;
+}
+
+
 /* --------------------------------------- */
 /* ----- Clients ----- */
 /* --------------------------------------- */
