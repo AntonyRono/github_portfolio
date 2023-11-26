@@ -509,6 +509,17 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+.tidy-tuesday-link {
+    color: #0077cc; /* Specify the desired font color using a color code */
+    /* You can add other styling properties if needed */
+    text-decoration: none; /* Remove underline by default, you can adjust this as needed */
+}
+
+.tidy-tuesday-link:hover {
+    color: #005580; /* Change color on hover */
+    /* You can add other styling properties for hover state */
+}
+
 /* Add this CSS to style the "More Projects" button */
 .more-projects-button {
     text-align: center;
