@@ -408,7 +408,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     /* background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header_new.jfif'); */
+        url('./images/header.png'); */
     background: #F9F7FF;
     height: 100vh;
     background-size: cover;
@@ -457,12 +457,12 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__box:not(:last-child) {
-    margin-bottom: 25rem;
+    margin-bottom: 8rem;
 }
 
 @media(max-width: 500px) {
     .work__box:not(:last-child) {
-        margin-bottom: 20rem;
+        margin-bottom: 10rem;
     }
 }
 
