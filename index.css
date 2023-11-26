@@ -70,9 +70,12 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--white-1);
+    color: var(--black-1);
     line-height: var(--line-height-normal);
-    background: var(--black);
+    /* background: var(--black); */
+    /* background: linear-gradient(#ffffff, #c9c9c9); */
+    background: #FBFAFF  ;
+    /* background: #F9F7FF; */
     overflow-x: hidden;
 }
 
@@ -125,7 +128,7 @@ h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--white);
+    color: var(--black-1);
 }
 
 .heading-primary {
@@ -404,8 +407,9 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+    /* background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
+        url('./images/header_new.jfif'); */
+    background: #F9F7FF;
     height: 100vh;
     background-size: cover;
     background-position: center;
